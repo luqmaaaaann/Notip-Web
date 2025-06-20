@@ -10,8 +10,8 @@ import { Star, CheckCircle } from "lucide-react";
 export default function Home() {
   const [_, action, pending] = useActionState(loginAction, null);
   return (
-    <main className="flex justify-center items-center bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
-      <section className="pt-32 pb-18 px-4 sm:px-6 lg:px-8">
+    <main className="min-h-screen flex-col flex justify-center items-center bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+      <section className="w-full max-w-4xl">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             {/* Section */}
