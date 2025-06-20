@@ -11,7 +11,7 @@ export default function Home() {
   const [_, action, pending] = useActionState(loginAction, null);
   return (
     <main className="flex justify-center items-center bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
-      <section className="pt-14 pb-18 px-4 sm:px-6 lg:px-8">
+      <section className="pt-32 pb-18 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             {/* Section */}
