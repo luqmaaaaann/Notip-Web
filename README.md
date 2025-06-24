@@ -28,7 +28,7 @@
 - ✅ Receive real-time notifications (success/failure) using the Sonner library
 - 🔃 Automatically refresh data after changes without manual reload (via revalidatePath)
   
-*All backend operations are executed directly using Next.js Server Actions & appbackend.io no traditional API endpoints—paired with a responsive UI built using shadcn/ui components and Tailwind CSS.*
+*All backend operations are executed directly using Next.js Server Actions & appbackend.io, no traditional API endpoints paired with a responsive UI built using shadcn/ui components and Tailwind CSS.*
 
 
 ## Getting Started
