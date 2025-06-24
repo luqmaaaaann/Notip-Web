@@ -1,16 +1,17 @@
-<h1 align="center">NOTIP-WEB</h1>
+<div align="center">
+# NOTIP-WEB
+  
+*One Web for All Deliveries*
 
-<p align="center"><i>Empowering Seamless Web Experiences with Innovation</i></p>
-
-<p align="center">
+<p>
   <img src="https://img.shields.io/github/last-commit/luqmaaaaann/Notip-Web" alt="last commit" />
   <img src="https://img.shields.io/badge/javascript-88.9%25-yellow" alt="JavaScript usage" />
   <img src="https://img.shields.io/github/languages/count/luqmaaaaann/Notip-Web" alt="Languages used" />
 </p>
 
-<p align="center"><i>Built with the tools and technologies:</i></p>
+*Built with the tools and technologies:*
 
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/JSON-000?logo=json&logoColor=white" alt="JSON" />
   <img src="https://img.shields.io/badge/Markdown-000?logo=markdown&logoColor=white" alt="Markdown" />
   <img src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white" alt="npm" />
@@ -19,16 +20,18 @@
   <img src="https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white" alt="ESLint" />
 </p>
 
-## 🧩 Overview
-**Aplikasi Notip-Web** memungkinkan pengguna mencatat titipan makanan secara digital dengan fitur CRUD lengkap (Buat, Baca, Edit, Hapus) menggunakan layanan backend eksternal, di mana pengguna pertama kali menginput nama via cookie-based authentication sederhana, lalu dapat:
+<div>
 
-- 📋 Mencatat titipan baru (melalui form dengan input: penitip, pesanan, keterangan, duit)
-- 👀 Melihat daftar titipan dalam tabel terstruktur dengan mengetahui hasil inputan, total titipan, tanggal dan aksi
-- ⚙️ Mengedit/menghapus entri via dialog interaktif
-- ✅ Mendapat notifikasi real-time (sukses/gagal operasi) menggunakan library Sonner
-- 🔃 Auto-refresh data setelah perubahan tanpa reload manual (revalidatePath)
+## 🧩 Overview
+**The Notip-Web application** allows users to digitally record food delivery notes with full CRUD functionality (Create, Read, Update, Delete) using an external backend service. Users first input their name through simple cookie-based authentication, then can:
+
+- 📋 Record new deliveries (via a form with fields: sender, order, notes, and money)
+- 👀 View the list of deliveries in a structured table with submitted data, total orders, date, and available actions
+- ⚙️ Edit/delete entries through interactive dialogs
+- ✅ Receive real-time notifications (success/failure) using the Sonner library
+- 🔃 Automatically refresh data after changes without manual reload (via revalidatePath)
   
-*Semua operasi backend dijalankan langsung via Server Actions Next.js tanpa API endpoint tradisional, dengan UI responsif menggunakan komponen shadcn/ui dan Tailwind CSS.*
+*All backend operations are executed directly using Next.js Server Actions & appbackend.io no traditional API endpoints—paired with a responsive UI built using shadcn/ui components and Tailwind CSS.*
 
 
 
