@@ -12,8 +12,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/JSON-000?logo=json&logoColor=white" alt="JSON" />
-  <img src="https://img.shields.io/badge/Markdown-000?logo=markdown&logoColor=white" alt="Markdown" />
   <img src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white" alt="npm" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind.css" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white" alt="ESLint" />
