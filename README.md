@@ -1,6 +1,6 @@
 <h1 align="center">NOTIP-WEB</h1>
 
-<p align="center"><i>One Web for All Deliveries</i></p>
+<p align="center"><i>One Place to Manage All Your Orders</i></p>
 
 <p align="center">
   <img src="https://img.shields.io/github/last-commit/luqmaaaaann/Notip-Web" alt="last commit" />
