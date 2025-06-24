@@ -1,17 +1,16 @@
-<div align="center">
-# NOTIP-WEB
-  
-*One Web for All Deliveries*
+<h1 align="center">NOTIP-WEB</h1>
 
-<p>
+<p align="center"><i>One Web for All Deliveries</i></p>
+
+<p align="center">
   <img src="https://img.shields.io/github/last-commit/luqmaaaaann/Notip-Web" alt="last commit" />
   <img src="https://img.shields.io/badge/javascript-88.9%25-yellow" alt="JavaScript usage" />
   <img src="https://img.shields.io/github/languages/count/luqmaaaaann/Notip-Web" alt="Languages used" />
 </p>
 
-*Built with the tools and technologies:*
+<p align="center"><i>Built with the tools and technologies:</i></p>
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/JSON-000?logo=json&logoColor=white" alt="JSON" />
   <img src="https://img.shields.io/badge/Markdown-000?logo=markdown&logoColor=white" alt="Markdown" />
   <img src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white" alt="npm" />
@@ -19,8 +18,6 @@
   <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white" alt="ESLint" />
 </p>
-
-<div>
 
 ## 🧩 Overview
 **The Notip-Web application** allows users to digitally record food delivery notes with full CRUD functionality (Create, Read, Update, Delete) using an external backend service. Users first input their name through simple cookie-based authentication, then can:
@@ -32,7 +29,6 @@
 - 🔃 Automatically refresh data after changes without manual reload (via revalidatePath)
   
 *All backend operations are executed directly using Next.js Server Actions & appbackend.io no traditional API endpoints—paired with a responsive UI built using shadcn/ui components and Tailwind CSS.*
-
 
 
 ## Getting Started
