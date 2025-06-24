@@ -19,31 +19,17 @@
   <img src="https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white" alt="ESLint" />
 </p>
 
----
-
-## 📚 Table of Contents
-
-- [Overview](#overview)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Testing](#testing)
-
----
-
 ## 🧩 Overview
+**Aplikasi Notip-Web** memungkinkan pengguna mencatat titipan makanan secara digital dengan fitur CRUD lengkap (Buat, Baca, Edit, Hapus) menggunakan layanan backend eksternal, di mana pengguna pertama kali menginput nama via cookie-based authentication sederhana, lalu dapat:
 
-**Notip-Web** is a modern, Next.js-based developer toolkit that simplifies building responsive, maintainable web applications with integrated UI components and robust configuration.  
-It emphasizes code quality, styling consistency, and seamless user interactions.  
-The core features include:
+- 📋 Mencatat titipan baru (melalui form dengan input: penitip, pesanan, keterangan, duit)
+- 👀 Melihat daftar titipan dalam tabel terstruktur dengan mengetahui hasil inputan, total titipan, tanggal dan aksi
+- ⚙️ Mengedit/menghapus entri via dialog interaktif
+- ✅ Mendapat notifikasi real-time (sukses/gagal operasi) menggunakan library Sonner
+- 🔃 Auto-refresh data setelah perubahan tanpa reload manual (revalidatePath)
+  
+*Semua operasi backend dijalankan langsung via Server Actions Next.js tanpa API endpoint tradisional, dengan UI responsif menggunakan komponen shadcn/ui dan Tailwind CSS.*
 
-- 🎯 🛠️ **ESLint Configuration**: Enforces code standards aligned with Next.js and React best practices, ensuring maintainability.
-- 🚀 🧰 **Next.js Setup**: Provides flexible build and runtime configurations for optimized deployment.
-- 🎨 🧩 **UI Component Library**: Reusable, styled components like buttons, dialogs, cards, and toasts streamline development.
-- 🌈 ⚡ **Tailwind CSS Integration**: Facilitates efficient styling workflows with utility-first CSS.
-- 🔑 🔒 **User & Note Management**: Supports user authentication, personalized notes, and real-time data handling.
-- 🧠 🧱 **Modular Architecture**: Promotes scalability and organized code structure for complex projects.
 
 
 ## Getting Started
